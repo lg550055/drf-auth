@@ -1,10 +1,13 @@
 # LAB - Class 32
 
 ## Project: Our tools
-Django Rest Framework API app showing tools available (for a tool sharing app)
+Containerized (Docker) Django Rest Framework API with Permissions app showing tools available (for a tool sharing app)
 
 ### Setup
-Use `python manage.py runserver`, to run app API.
+To build container use `docker compose up --build`
+
+Run container with `docker compose up`
+Inside the container use `python manage.py runserver`, to run app API.
 
 
 ### Tests
