@@ -1,6 +1,4 @@
-# LAB - Class 33
-
-## Project: Our tools -JWT & Gunicorn
+## Project: Our tools
 Containerized (Docker) Django Rest Framework API serving hardware tools available (for a tool sharing app) in Postgres database.
 
 Gunicorn production server
@@ -9,7 +7,6 @@ JWT token based authorizations
 Permissions policy:
 1. Must be authenticated to access info
 2. Owner or ReadOnly
-
 
 ### Setup
 To build and run the container use `docker compose up --build`
